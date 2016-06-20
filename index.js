@@ -8,7 +8,8 @@ const select = require('postcss-select')
 postcss([
   atImport(), mq(), rmComments({ removeAll: true }),
   select([
-    '.measure', '.measure-ns', '.truncate'
+    '.measure', '.measure-ns', '.truncate', '.ttu', '.tracked',
+    '.b', '.b-ns', '.normal', '.normal-ns', '.v-mid', '.v-mid-ns'
   ])
 ]).process('@import "tachyons";')
   .then(css => {

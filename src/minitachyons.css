@@ -4,3 +4,7 @@
 @import "tachyons-borders";
 @import "tachyons-links":
 @import "tachyons-widths";
+@import "tachyons-spacing";
+@import "tachyons-tables";
+
+.blg { border-color: #aaa; }

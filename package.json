@@ -18,8 +18,11 @@
   "license": "MIT",
   "dependencies": {
     "tachyons-borders": "^2.1.0",
+    "tachyons-display": "^4.1.0",
     "tachyons-floats": "^2.0.4",
     "tachyons-links": "^3.0.1",
+    "tachyons-spacing": "^5.0.10",
+    "tachyons-tables": "^1.0.0",
     "tachyons-type-scale": "^5.0.3",
     "tachyons-widths": "^4.0.2"
   },

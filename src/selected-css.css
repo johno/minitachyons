@@ -1,6 +1,14 @@
+.normal{ font-weight:normal; }
+.b{ font-weight:bold; }
+.tracked{ letter-spacing:.16em; }
+.ttu{ text-transform:uppercase; }
 .measure{ max-width:30em; }
 .truncate{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v-mid{ vertical-align:middle; }
 @media screen and (min-width: 30em){
- .measure-ns{ max-width:30em; } }
+ .normal-ns{ font-weight:normal; }
+ .b-ns{ font-weight:bold; }
+ .measure-ns{ max-width:30em; }
+ .v-mid-ns{ vertical-align:middle; } }
 @media screen and (min-width: 30em) and (max-width: 60em){}
 @media screen and (min-width: 60em){}
