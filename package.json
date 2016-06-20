@@ -1,0 +1,25 @@
+{
+  "name": "minitachyons",
+  "description": "A miniscule, opinionated subset of Tachyons",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "src/minitachyons.cs",
+  "files": [
+    "src",
+    "css"
+  ],
+  "scripts": {
+    "start": "npm run build:css && npm run build:docs",
+    "build:css": "tachyons src/minitachyons.css > css/minitachyons.css && tachyons src/minitachyons.css > css/minitachyons.css --minify",
+    "build:docs": "tachyons src/minitachyons.css --generate-docs --package=./package.json > readme.md"
+  },
+  "repository": "johnotander/minitachyons",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "tachyons-type-scale": "^5.0.3"
+  },
+  "devDependencies": {
+    "tachyons-cli": "^0.6.0"
+  }
+}
