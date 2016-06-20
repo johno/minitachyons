@@ -1,6 +1,6 @@
-# tachyons-cli 0.6.0
+# minitachyons 0.1.0
 
-Postprocess tachyons stylesheets
+A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
@@ -13,13 +13,13 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-cli
+npm install --save-dev minitachyons
 ```
 
 #### With Git
 
 ```
-git clone https://github.com/tachyons-css/tachyons-cli
+git clone https://github.com/tachyons-css/minitachyons
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ git clone https://github.com/tachyons-css/tachyons-cli
 Import the css module
 
 ```css
-@import "tachyons-cli";
+@import "minitachyons";
 ```
 
 Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -45,7 +45,7 @@ The built CSS is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-cli">
+<link rel="stylesheet" href="path/to/module/css/minitachyons">
 ```
 
 #### Development

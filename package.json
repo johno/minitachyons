@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npm run build:css && npm run build:docs",
     "build:css": "tachyons src/minitachyons.css > css/minitachyons.css && tachyons src/minitachyons.css > css/minitachyons.css --minify",
-    "build:docs": "tachyons src/minitachyons.css --generate-docs --package=./package.json > readme.md"
+    "build:docs": "tachyons src/minitachyons.css --generate-docs --package=../../package.json > readme.md"
   },
   "repository": "johnotander/minitachyons",
   "keywords": [],
