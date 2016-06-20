@@ -1,1 +1,6 @@
+@import "src/selected-css.css";
 @import "tachyons-type-scale";
+@import "tachyons-floats";
+@import "tachyons-borders";
+@import "tachyons-links":
+@import "tachyons-widths";

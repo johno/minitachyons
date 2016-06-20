@@ -9,7 +9,7 @@
     "css"
   ],
   "scripts": {
-    "start": "npm run build:css && npm run build:docs",
+    "start": " node ./ && npm run build:css && npm run build:docs",
     "build:css": "tachyons src/minitachyons.css > css/minitachyons.css && tachyons src/minitachyons.css > css/minitachyons.css --minify",
     "build:docs": "tachyons src/minitachyons.css --generate-docs --package=../../package.json > readme.md"
   },
@@ -17,9 +17,19 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "tachyons-type-scale": "^5.0.3"
+    "tachyons-borders": "^2.1.0",
+    "tachyons-floats": "^2.0.4",
+    "tachyons-links": "^3.0.1",
+    "tachyons-type-scale": "^5.0.3",
+    "tachyons-widths": "^4.0.2"
   },
   "devDependencies": {
+    "css-mqpacker": "^5.0.1",
+    "postcss": "^5.0.21",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^8.1.2",
+    "postcss-select": "^2.0.0",
+    "tachyons": "^4.0.0-beta.33",
     "tachyons-cli": "^0.6.0"
   }
 }
