@@ -3,11 +3,7 @@
   "description": "A miniscule, opinionated subset of Tachyons",
   "author": "John Otander",
   "version": "0.1.2",
-  "main": "src/minitachyons.cs",
-  "files": [
-    "src",
-    "css"
-  ],
+  "main": "src/minitachyons.css",
   "scripts": {
     "start": "npm run build && npm run build:css && npm run build:docs",
     "build": "node ./",
