@@ -1,10 +1,10 @@
-# minitachyons 0.1.9
+# minitachyons 0.1.10
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-4591 | 674 | 832
+4732 | 701 | 833
 ---|---|---
 bytes | selectors | declarations
 
@@ -57,7 +57,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ```css
 @import "normalize.css";
-@import "tachyons-border-box";
 .br2 { border-radius: .25rem; }
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
@@ -75,6 +74,13 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 */
 html, body { height: 100%; }
+/*
+  Box Sizing
+*/
+html, body, div, article, section, main, footer, header, form, fieldset, pre,
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    TYPE SCALE

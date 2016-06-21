@@ -1,5 +1,4 @@
 @import "normalize.css";
-@import "tachyons-border-box";
 .br2 { border-radius: .25rem; }
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
@@ -17,6 +16,13 @@
 
 */
 html, body { height: 100%; }
+/*
+  Box Sizing
+*/
+html, body, div, article, section, main, footer, header, form, fieldset, pre,
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    TYPE SCALE
