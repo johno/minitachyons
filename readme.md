@@ -1,10 +1,10 @@
-# minitachyons 0.1.3
+# minitachyons 0.1.4
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-3905 | 618 | 773
+4315 | 666 | 825
 ---|---|---
 bytes | selectors | declarations
 
@@ -56,6 +56,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## The CSS
 
 ```css
+@import "normalize.css";
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
 .tracked { letter-spacing: .16em; }
@@ -345,6 +346,46 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
 .striped--light-gray:nth-child(odd) { background-color: #eee; }
 .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+/*
+
+   DISPLAY
+
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.dn { display: none; }
+.di { display: inline; }
+.db { display: block; }
+.dib { display: inline-block; }
+.dit { display: inline-table; }
+.dt { display: table; }
+.dtc { display: table-cell; }
+.dt-row { display: table-row; }
+.dt-row-group { display: table-row-group; }
+.dt-column { display: table-column; }
+.dt-column-group { display: table-column-group; }
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed { table-layout: fixed; width: 100%; }
 .blg { border-color: #aaa; }
 @media screen and (min-width: 30em) {
  .normal-ns { font-weight: normal; }
@@ -501,6 +542,18 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mh5-ns { margin-left: 4rem; margin-right: 4rem; }
  .mh6-ns { margin-left: 8rem; margin-right: 8rem; }
  .mh7-ns { margin-left: 16rem; margin-right: 16rem; }
+ .dn-ns { display: none; }
+ .di-ns { display: inline; }
+ .db-ns { display: block; }
+ .dib-ns { display: inline-block; }
+ .dit-ns { display: inline-table; }
+ .dt-ns { display: table; }
+ .dtc-ns { display: table-cell; }
+ .dt-row-ns { display: table-row; }
+ .dt-row-group-ns { display: table-row-group; }
+ .dt-column-ns { display: table-column; }
+ .dt-column-group-ns { display: table-column-group; }
+ .dt--fixed-ns { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .f-6-m, .f-headline-m { font-size: 6rem; }
@@ -649,6 +702,18 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mh5-m { margin-left: 4rem; margin-right: 4rem; }
  .mh6-m { margin-left: 8rem; margin-right: 8rem; }
  .mh7-m { margin-left: 16rem; margin-right: 16rem; }
+ .dn-m { display: none; }
+ .di-m { display: inline; }
+ .db-m { display: block; }
+ .dib-m { display: inline-block; }
+ .dit-m { display: inline-table; }
+ .dt-m { display: table; }
+ .dtc-m { display: table-cell; }
+ .dt-row-m { display: table-row; }
+ .dt-row-group-m { display: table-row-group; }
+ .dt-column-m { display: table-column; }
+ .dt-column-group-m { display: table-column-group; }
+ .dt--fixed-m { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 64em) {
  .f-6-l, .f-headline-l { font-size: 6rem; }
@@ -797,6 +862,18 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mh5-l { margin-left: 4rem; margin-right: 4rem; }
  .mh6-l { margin-left: 8rem; margin-right: 8rem; }
  .mh7-l { margin-left: 16rem; margin-right: 16rem; }
+ .dn-l { display: none; }
+ .di-l { display: inline; }
+ .db-l { display: block; }
+ .dib-l { display: inline-block; }
+ .dit-l { display: inline-table; }
+ .dt-l { display: table; }
+ .dtc-l { display: table-cell; }
+ .dt-row-l { display: table-row; }
+ .dt-row-group-l { display: table-row-group; }
+ .dt-column-l { display: table-column; }
+ .dt-column-group-l { display: table-column-group; }
+ .dt--fixed-l { table-layout: fixed; width: 100%; }
 }
 ```
 

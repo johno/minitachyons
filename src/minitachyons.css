@@ -1,4 +1,7 @@
+@import "normalize.css";
+
 @import "./selected-css.css";
+
 @import "tachyons-type-scale";
 @import "tachyons-floats";
 @import "tachyons-borders";
@@ -6,5 +9,6 @@
 @import "tachyons-widths";
 @import "tachyons-spacing";
 @import "tachyons-tables";
+@import "tachyons-display";
 
 .blg { border-color: #aaa; }
