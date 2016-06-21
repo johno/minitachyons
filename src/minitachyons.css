@@ -2,6 +2,7 @@
 
 @import "./selected-css.css";
 
+@import "tachyons-base";
 @import "tachyons-type-scale";
 @import "tachyons-floats";
 @import "tachyons-borders";
@@ -10,5 +11,15 @@
 @import "tachyons-spacing";
 @import "tachyons-tables";
 @import "tachyons-display";
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+						   sans-serif;
+}
 
 .blg { border-color: #aaa; }
