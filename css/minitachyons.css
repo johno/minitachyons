@@ -11,6 +11,12 @@
 .v-mid { vertical-align: middle; }
 /*
 
+  BASE
+
+*/
+html, body { height: 100%; }
+/*
+
    TYPE SCALE
 
 */
@@ -328,6 +334,7 @@
   all cells will be equal width
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .blg { border-color: #aaa; }
 @media screen and (min-width: 30em) {
  .normal-ns { font-weight: normal; }

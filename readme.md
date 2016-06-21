@@ -1,10 +1,10 @@
-# minitachyons 0.1.4
+# minitachyons 0.1.7
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-4315 | 666 | 825
+4447 | 669 | 827
 ---|---|---
 bytes | selectors | declarations
 
@@ -67,6 +67,12 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .measure { max-width: 30em; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .v-mid { vertical-align: middle; }
+/*
+
+  BASE
+
+*/
+html, body { height: 100%; }
 /*
 
    TYPE SCALE
@@ -386,6 +392,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   all cells will be equal width
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .blg { border-color: #aaa; }
 @media screen and (min-width: 30em) {
  .normal-ns { font-weight: normal; }
