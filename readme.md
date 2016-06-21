@@ -1,10 +1,10 @@
-# minitachyons 0.1.10
+# minitachyons 0.1.11
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-4732 | 701 | 833
+4712 | 701 | 833
 ---|---|---
 bytes | selectors | declarations
 
@@ -56,7 +56,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## The CSS
 
 ```css
-@import "normalize.css";
 .br2 { border-radius: .25rem; }
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
