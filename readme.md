@@ -1,10 +1,10 @@
-# minitachyons 0.1.7
+# minitachyons 0.1.8
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-4447 | 669 | 827
+4559 | 673 | 831
 ---|---|---
 bytes | selectors | declarations
 
@@ -393,6 +393,11 @@ html, body { height: 100%; }
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+/* Nicolas Gallaghers Clearfix solution
+ *    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
 .blg { border-color: #aaa; }
 @media screen and (min-width: 30em) {
  .normal-ns { font-weight: normal; }
