@@ -1,6 +1,9 @@
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
 .tracked { letter-spacing: .16em; }
+.mid-gray { color: #555; }
+.silver { color: #999; }
+.light-silver { color: #aaa; }
 .ttu { text-transform: uppercase; }
 .measure { max-width: 30em; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

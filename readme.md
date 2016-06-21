@@ -1,10 +1,10 @@
-# minitachyons 0.1.0
+# minitachyons 0.1.3
 
 A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-3872 | 615 | 770
+3905 | 618 | 773
 ---|---|---
 bytes | selectors | declarations
 
@@ -59,6 +59,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
 .tracked { letter-spacing: .16em; }
+.mid-gray { color: #555; }
+.silver { color: #999; }
+.light-silver { color: #aaa; }
 .ttu { text-transform: uppercase; }
 .measure { max-width: 30em; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

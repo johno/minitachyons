@@ -6,7 +6,7 @@
   "main": "src/minitachyons.css",
   "scripts": {
     "start": "npm run build && npm run build:css && npm run build:docs",
-    "build": "node ./",
+    "build": "node index.js",
     "build:css": "tachyons src/minitachyons.css > css/minitachyons.css",
     "build:css:min": "tachyons src/minitachyons.css > css/minitachyons.min.css --minify",
     "build:docs": "tachyons src/minitachyons.css --generate-docs --package=../../package.json > readme.md"
