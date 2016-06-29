@@ -4,7 +4,7 @@ A miniscule, opinionated subset of Tachyons
 
 #### Stats
 
-4712 | 701 | 833
+4732 | 702 | 835
 ---|---|---
 bytes | selectors | declarations
 
@@ -66,6 +66,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .ttu { text-transform: uppercase; }
 .measure { max-width: 30em; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.center { margin-right: auto; margin-left: auto; }
 .v-mid { vertical-align: middle; }
 /*
 

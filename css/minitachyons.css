@@ -8,6 +8,7 @@
 .ttu { text-transform: uppercase; }
 .measure { max-width: 30em; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.center { margin-right: auto; margin-left: auto; }
 .v-mid { vertical-align: middle; }
 /*
 
